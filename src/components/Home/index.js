@@ -2,14 +2,13 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
-import Logo from './Logo'
 import Loader from 'react-loaders'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
   const nameArray = ['R','i','a','d']
-  const jobArray = "Software Engineer.".split("");
+  const jobArray = "Teaching Assistant.".split("");
 
 
   useEffect(() => {
@@ -46,12 +45,11 @@ const Home = () => {
               idx={15}
             />
           </h1>
-          <h2>Back End Developer / Python Developer / Data Structures Enthusiast</h2>
+          <h2>Back End Developer / Data Structures Enthusiast</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
         </div>
-        <Logo />
       </div>
       <Loader type="ball-scale-ripple" />
     </>
