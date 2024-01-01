@@ -1,0 +1,20 @@
+{
+    "teaching": [
+        {
+            "name": "CSE250 - Data Structures: Head Teaching Assistant",
+            "description": "Helped over 750 students understand the various data structures and algorithms that are used to solve different types of problems by holding office hours, recitations, review sessions and QA sessions. Additionally, assisted them in the process of understanding the complexities and trade-offs involved in using different data structures as well as helping develop the skills needed to analyze and implement data structures in their own programs. Explain the relationship between data structures and algorithms and how they are used to solve real-world problems in precise details."
+        },
+        {
+            "name": "CSE341 - Computer Organization: Teaching Assistant",
+            "description": "Assisted the instructor in planning and delivering course materials, held office hours to help over 400 students with coursework and projects regarding instruction set architecture, arithmetic logic unit design, advanced computer arithmetic, datapath and control unit design, pipelining, memory hierarchy. Graded assignments and exams, provided feedback to students on their progress, held review sessions or study groups, helped to maintain course materials and resources, shown support to students with special needs or accommodations, assisted to create and maintain a positive learning environment, created and delivered video tutorials when necessary, and participated in department meetings and other activities related to the course."
+        },
+        {
+            "name": "CSE115 - Intro to CS: Teaching Assistant",
+            "description": "In a little over than 2 months, taught introductory Python programming to over 50 students (majors and non-majors) during a laboratory twice a week. Held office hours to help students outside the classroom. Assisted students' needs and removed the TA-student barrier to have a smooth learning process."
+        },
+        {
+            "name": "CSE191 - Discrete Structures: Teaching Assistant",
+            "description": "Taught Discrete Strucrures to more than 200 students in office hours and recitation. Managed a section of 25 students and answered their questions during the assigned recitation time. Additionally, I graded homeworks on the concepts of propositions, proofs and many other topics."
+        }
+    ]
+}

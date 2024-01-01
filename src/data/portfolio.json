@@ -1,0 +1,29 @@
+{
+    "portfolio": [
+        {
+            "name": "RoomAid",
+            "description": "The RoomAid project, managed by a proficient team of five engineers and a dedicated Project Manager, effectively tackled the prevalent challenges faced in college dormitories and apartments through the development of a web application. Employing agile methodologies throughout its lifecycle ensured iterative enhancements, enabling RoomAid to evolve in tandem with the dynamic needs of its users. Rigorous testing and comprehensive peer reviews within our collaborative environment substantiated RoomAid's efficiency, positioning it among the highest-rated projects in our course—a testament to its success in addressing roommate relationship issues within shared living spaces.",
+            "tools": "PHP | MYSQL | HTML | CSS | Git"
+        },
+        {
+            "name": "Second Time's The Charm",
+            "description": "This project encompasses the creation of a sophisticated quiz application, mirroring the functionalities of the TopHat platform. The development process entailed a comprehensive exploration and utilization of diverse web development tools and technologies, notably focusing on areas such as DoS protection, OAuth 2.0, Gmail API integration, HTTPS encryption, WebSocket implementation, robust authentication mechanisms, and adept handling of cookies. A team of 3 engineers developed the flow of this application as well as deploy it and present it in front of the whole classroom. Additionally, the project was load tested during the presentation and passed all DoS attacks.",
+            "tools": "Flask | MongoDB | HTML | CSS | Vanilla JS"
+        },
+        {
+            "name": "HTTP & Docker Website",
+            "description": "This website was the primary assignment of my Web Applications course mainly focused in applying all modern web tools without the use of any web frameworks. The website is powered by TCPServer, Python, HTML, CSS, and Vanilla JavaScript intertwine. I also used MongoDB to store all my data efficiently as well as Docker to optimize the usage of the app within any environment. Tools I used included: HTTP ops, cookies, forms, AJAX, authentication (auth & XSRF tokens), HTML security, file handling (incl. multipart uploads), buffering, WebSocket connection, WebRTC, encryption, HTTPS, & reverse proxy servers — all built from scratch, bypassing pre-existing web frameworks.",
+            "tools": "Python | MongoDB | HTML | CSS | Vanilla JS"
+        },
+        {
+            "name": "RL Environment/Algorithm",
+            "description": "This Reinforcement learning environment is compliant with Gym standards in three parts: defining an MDP-based environment, applying SARSA, and implementing Q-learning and Double Q-learning for solving specific environments. Written in Python with the usage of Gym, Matplotlib and Numpy libraries. The specific environment we created happened to be the North Campus of the State University of New York at Buffalo. The agent's goal was to find the shortest, most efficient and least costly path to the Silverman Library of UB. Our agent learned gradually while increasing the learning rate and showed better results when there is more to lose. ",
+            "tools": "Python | Numpy | Matplotlib | Gymnasium"
+        },
+        {
+            "name": "React Personal Website",
+            "description": "Through diligent learning in React, I've crafted a portfolio that epitomizes my skills. This platform is customized for recruiters and curious minds to explore and connect. Continuously refined, it's meticulously organized to serve as an enticing and efficient gateway, showcasing my capabilities and ambitions in the realm of development This website needs some modifications, however, I am learning, then applying. This is a long process and I like to keep it organized. As a Back-End guy, I always disliked the flow of Front-End engineering. Nonetheless, my work on the portfolio showed me that I can actually get to like something only when you understand its powers and can possess it.",
+            "tools": "React | JSX | Tailwind | Saas | Jest"
+        }
+    ]
+}
