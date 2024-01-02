@@ -34,7 +34,7 @@ const Contact = () => {
               onClose: () => {
                 setTimeout(() => {
                     window.location.reload();
-                }, 4500);
+                }, 2500);
                 }
               });
 
