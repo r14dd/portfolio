@@ -30,6 +30,10 @@ const Contact = () => {
             () => {
               alert('Message successfully sent!')
               window.location.reload(false)
+              window.location.href = window.location.href;
+              setTimeout(function(){
+                window.location.reload();
+              });
             },
             () => {
               alert('Failed to send the message, please try again')
