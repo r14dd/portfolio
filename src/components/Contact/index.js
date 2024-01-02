@@ -3,7 +3,9 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { useState, useEffect, useRef } from 'react'
 import emailjs from '@emailjs/browser'
-import { redirect } from "react-router-dom";
+// import { redirect } from "react-router-dom";
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const Contact = () => {
@@ -28,15 +30,17 @@ const Contact = () => {
           .sendForm('default_service', 'template_y3pyncy', form.current, '_u5y87WZxnZh0yo86')
           .then(
             () => {
-              alert('Message successfully sent!')
-              window.location.href = window.location.href;
-              redirect('/contact');
-              // setTimeout(function(){
-              //   window.location.reload();
-              // });
+              toast("Message sent successfully!", {
+              onClose: () => {
+                setTimeout(() => {
+                    window.location.reload();
+                }, 4500);
+                }
+              });
+
             },
             () => {
-              alert('Failed to send the message, please try again')
+              toast('Failed to send the message, please try again');
             }
           )
       }
@@ -95,6 +99,16 @@ const Contact = () => {
                 </form>
               </div>
             </div>
+            <ToastContainer
+              position="top-right"
+              autoClose={3500}
+              hideProgressBar={false}
+              newestOnTop={false}
+              closeOnClick
+              pauseOnFocusLoss
+              draggable
+              theme="dark"
+            />
           </div>
           <Loader type="ball-scale-ripple" />
         </>
