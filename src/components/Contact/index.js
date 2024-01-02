@@ -3,10 +3,10 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { useState, useEffect, useRef } from 'react'
 import emailjs from '@emailjs/browser'
+import { redirect } from "react-router-dom";
 
 
 const Contact = () => {
-
     const [letterClass, setLetterClass] = useState('text-animate')
     const form = useRef()
 
@@ -29,11 +29,11 @@ const Contact = () => {
           .then(
             () => {
               alert('Message successfully sent!')
-              window.location.reload(false)
               window.location.href = window.location.href;
-              setTimeout(function(){
-                window.location.reload();
-              });
+              redirect('/contact');
+              // setTimeout(function(){
+              //   window.location.reload();
+              // });
             },
             () => {
               alert('Failed to send the message, please try again')
