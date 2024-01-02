@@ -63,6 +63,7 @@
       text-decoration: none;
       padding: 8px 10px;
       border: 1px solid #ffd700;
+      font-family: sans-serif;
       float: left;
       border-radius: 4px;
       background: 0 0;
@@ -70,6 +71,13 @@
       float: right;
       text-align: center;
       margin-right: 10px;
+      animation: fadeInAnimation 1s 1.8s backwards;
+      white-space: nowrap;
+
+      &:hover {
+        background: #ffd700;
+        color: #333;
+      }
     }
   }
   
@@ -113,6 +121,13 @@
         color: #ffd700;
       }
     }
+  }
+
+  :root {
+    --toastify-color-dark: #ffd700;
+    --toastify-font-family: sans-serif;
+    --toastify-text-color-dark: #000;
+    --toastify-color-success: #07bc0c;
   }
   
   @media screen and (max-width: 1200px) {

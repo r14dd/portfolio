@@ -1,4 +1,3 @@
-import './index.scss'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { useState, useEffect, useRef } from 'react'
@@ -6,6 +5,7 @@ import emailjs from '@emailjs/browser'
 // import { redirect } from "react-router-dom";
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import './index.scss'
 
 
 const Contact = () => {
@@ -30,17 +30,17 @@ const Contact = () => {
           .sendForm('default_service', 'template_y3pyncy', form.current, '_u5y87WZxnZh0yo86')
           .then(
             () => {
-              toast("Message sent successfully!", {
+              toast.success("Message sent successfully!", {
               onClose: () => {
                 setTimeout(() => {
-                    window.location.reload();
-                }, 2500);
+                    form.current.reset();
+                }, 4500);
                 }
               });
 
             },
             () => {
-              toast('Failed to send the message, please try again');
+              toast.error('Failed to send the message, please try again');
             }
           )
       }
@@ -101,12 +101,14 @@ const Contact = () => {
             </div>
             <ToastContainer
               position="top-right"
-              autoClose={3500}
+              autoClose={5000}
               hideProgressBar={false}
-              newestOnTop={false}
+              newestOnTop
               closeOnClick
-              pauseOnFocusLoss
+              rtl={false}
+              pauseOnFocusLoss={false}
               draggable
+              pauseOnHover={false}
               theme="dark"
             />
           </div>
