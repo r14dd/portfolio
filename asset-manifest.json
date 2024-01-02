@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2d66fcd0.css",
-    "main.js": "/static/js/main.fed28169.js",
+    "main.js": "/static/js/main.91d4fb2e.js",
     "static/js/496.4ce719e5.chunk.js": "/static/js/496.4ce719e5.chunk.js",
     "static/media/leicester.png": "/static/media/leicester.c3f78226bea30ad73c07.png",
     "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
@@ -9,11 +9,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/index.html",
     "main.2d66fcd0.css.map": "/static/css/main.2d66fcd0.css.map",
-    "main.fed28169.js.map": "/static/js/main.fed28169.js.map",
+    "main.91d4fb2e.js.map": "/static/js/main.91d4fb2e.js.map",
     "496.4ce719e5.chunk.js.map": "/static/js/496.4ce719e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2d66fcd0.css",
-    "static/js/main.fed28169.js"
+    "static/js/main.91d4fb2e.js"
   ]
 }
