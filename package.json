@@ -1,5 +1,4 @@
 {
-  "homepage": "http://r14dd.github.io/r14dd.github.io",
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -19,9 +18,9 @@
     "react-leaflet": "^4.2.1",
     "react-loaders": "^3.0.1",
     "react-router-dom": "^6.21.1",
-    "react-scripts": "5.0.1",
-    "sass": "^1.69.5",
-    "web-vitals": "^2.1.4"
+    "react-scripts": "^5.0.1",
+    "sass": "^1.69.6",
+    "web-vitals": "^3.5.1"
   },
   "scripts": {
     "start": "react-scripts start",
