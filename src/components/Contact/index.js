@@ -11,6 +11,7 @@ import './index.scss'
 const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const form = useRef()
+    const [isSubmitting, setIsSubmitting] = useState(false);
 
 
     useEffect(() => {
@@ -25,6 +26,12 @@ const Contact = () => {
 
     const sendEmail = (e) => {
         e.preventDefault()
+
+        if (isSubmitting){
+          return;
+        }
+
+        setIsSubmitting(true);
     
         emailjs
           .sendForm('default_service', 'template_y3pyncy', form.current, '_u5y87WZxnZh0yo86')
@@ -34,6 +41,7 @@ const Contact = () => {
               onClose: () => {
                 setTimeout(() => {
                     form.current.reset();
+                    setIsSubmitting(false);
                 }, 4500);
                 }
               });
@@ -41,6 +49,7 @@ const Contact = () => {
             },
             () => {
               toast.error('Failed to send the message, please try again');
+              setIsSubmitting(false);
             }
           )
       }
@@ -93,7 +102,7 @@ const Contact = () => {
                       ></textarea>
                     </li>
                     <li>
-                      <input type="submit" className="flat-button" value="SEND" />
+                      <input type="submit" className="flat-button" value="SEND" disabled={isSubmitting} />
                     </li>
                   </ul>
                 </form>
