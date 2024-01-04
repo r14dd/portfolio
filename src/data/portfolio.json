@@ -11,11 +11,6 @@
             "tools": "Flask | MongoDB | HTML | CSS | Vanilla JS"
         },
         {
-            "name": "HTTP & Docker Website",
-            "description": "This website was the primary assignment of my Web Applications course mainly focused in applying all modern web tools without the use of any web frameworks. The website is powered by TCPServer, Python, HTML, CSS, and Vanilla JavaScript intertwine. I also used MongoDB to store all my data efficiently as well as Docker to optimize the usage of the app within any environment. Tools I used included: HTTP ops, cookies, forms, AJAX, authentication (auth & XSRF tokens), HTML security, file handling (incl. multipart uploads), buffering, WebSocket connection, WebRTC, encryption, HTTPS, & reverse proxy servers — all built from scratch, bypassing pre-existing web frameworks.",
-            "tools": "Python | MongoDB | HTML | CSS | Vanilla JS"
-        },
-        {
             "name": "RL Environment/Algorithm",
             "description": "This Reinforcement learning environment is compliant with Gym standards in three parts: defining an MDP-based environment, applying SARSA, and implementing Q-learning and Double Q-learning for solving specific environments. Written in Python with the usage of Gym, Matplotlib and Numpy libraries. The specific environment we created happened to be the North Campus of the State University of New York at Buffalo. The agent's goal was to find the shortest, most efficient and least costly path to the Silverman Library of UB. Our agent learned gradually while increasing the learning rate and showed better results when there is more to lose. ",
             "tools": "Python | Numpy | Matplotlib | Gymnasium"
