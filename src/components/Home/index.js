@@ -7,8 +7,8 @@ import Loader from 'react-loaders'
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  const nameArray = ['R','i','a','d']
-  const jobArray = "Teaching Assistant.".split("");
+  const nameArray = "Riad".split("");
+  const jobArray = "Software Engineer".split("");
 
 
   useEffect(() => {
@@ -42,7 +42,7 @@ const Home = () => {
             <AnimatedLetters
               letterClass={letterClass}
               strArray={jobArray}
-              idx={15}
+              idx={3}
             />
           </h1>
           <h2>Back End Developer / Data Structures Enthusiast</h2>

@@ -86,7 +86,7 @@ const Sidebar = () => {
                 <a 
                 target="_blank" 
                 rel="noreferrer" 
-                href="https://drive.google.com/file/d/12CIdd3SpV8vlp50hWQCJvAMU91qBMHrv/view?usp=sharing"
+                href="https://drive.google.com/file/d/1lPE4O5XDapftSvp8tY1rcHsd5d7b8fgx/view?usp=sharing"
                 >
                     <FontAwesomeIcon icon={faNoteSticky} color="#4d4d4e" />
                 </a>
